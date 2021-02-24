@@ -1,20 +1,3 @@
-"""A number-guessing game."""
-# create a function that takes in a int and returns an integer
-# import random
-# take in user input for name (input function)
-# print statement for comp saying its thinking of a number
-# generate random number (num=random.randint(1,100))
-# set an integer = 0 then
-# use a while loop  
-# take in input of guess
-# if guess == to num then print integer from line 7 (number of tries) and 
-# 'you won!'
-# break 
-# if guess > num, print 'your guess is too high, try again' 
-# if guess < num, print 'your guess is too low, try again' 
-# outside first loop, make second while loop 'wanna play again'
-# Put your code here
-
 import random
 num = random.randint(1,100)
 
